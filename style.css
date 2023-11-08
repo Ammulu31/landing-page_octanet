@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(images/netflibg.png);
+    background-size:1200px;
+    background-position: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items:center;
+}
+.logo{
+    width: 130px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: left;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 30;
+    align-items: left;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+    color: ghostwhite;
+    font-size: 30px;
+    font-family: 'Young Serif', serif;
+}
+h2{
+    @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+    color: ghostwhite;
+    font-size: 30px;
+    font-family: 'Young Serif', serif;
+}
+button{
+    width: 100px;
+    color: rgb(11, 10, 10);
+    font-size: 10px;
+    padding: 12px 0;
+    background: ghostwhite;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+button:hover{
+    background: red;
+    scale: 1.1;
+}
+P{
+    color: whitesmoke;
+    font-size: 15PX;
+    line-height: 30PX;
+}
+h3{
+    @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+    color: ghostwhite;
+    font-size: 30px;
+    font-family: 'Young Serif', serif;
+}
+.card{
+    width: 150px;
+    height: 90px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.card:hover{
+    scale: 1.1;
+}
+.card1{
+    background: url('images/deadpool.png.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 160px;
+    left: 100px;
+}
+.card2{
+    background: url('images/spd.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 160px;
+    left: 270px;
+}
+.card3{
+    background: url('images/onepiece.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 160px;
+    left: 440px;
+}
+.card4{
+    background: url('images/ironman.png.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 160px;
+    left: 610px;
+}
+.card5{
+    background: url('images/cap.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 160px;
+    left: 780px;
+}
+.card6{
+    background: url(images/avg6.png.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 160px;
+    left: 950px;
+}
+.card7{
+    background: url(images/avg7.png.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 160px;
+    left: 1120px;
+}
+.card8{
+    background: url(images/antman8.png.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 160px;
+    left: 1290px;
+}
+.card9{
+    background: url(images/9.png.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}
+.card10{
+    background: url(images/10.png.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 270px;
+}
+.card11{
+    background: url(images/11.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 440px;
+}
+.card12{
+    background: url(images/12.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 610px;
+}
+.card13{
+    background: url(images/13.png.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 780px;
+}
+.card14{
+    background: url(images/14.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 950px;
+}
+.card15{
+    background: url(images/15.png.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 1120px;
+}
+.card16{
+    background: url(images/16.png.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 1290px;
+}
+h4{
+    @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+    color: ghostwhite;
+    font-size: 30px;
+    font-family: 'Young Serif', serif;
+    position: absolute;
+    bottom: 120px;
+    left: 120px;
+}
